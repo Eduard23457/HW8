@@ -24,7 +24,7 @@ public class Main {
         for (int i = 0; i < others.length; i++) {
             System.out.print(others[i]);
             if (i < others.length - 1) {
-                System.out.print(" , ");
+                System.out.print(" ");
             }
         }
         System.out.println();
@@ -40,7 +40,7 @@ public class Main {
         }
         System.out.println();
         for (int i = others.length - 1; i >= 0; i--) {
-            System.out.print(others[i] + ", ");
+            System.out.print(others[i] + " ");
         }
         System.out.println();
 
@@ -50,6 +50,7 @@ public class Main {
                 weights[i] = weights[i] + 1;
             }
             System.out.println(Arrays.toString(weights));
+            break;
 
             }
         }
