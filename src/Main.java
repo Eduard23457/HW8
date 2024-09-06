@@ -34,15 +34,25 @@ public class Main {
         System.out.println("Задача 3");
 
         for (int i = weights.length - 1; i >= 0; i--) {
-            System.out.print(weights[i] + ", ");
-        }
-        for (int i = numbers.length - 1; i >= 0; i--) {
-            System.out.print(numbers[i] + ", ");
+            System.out.print(weights[i]);
+            if (i < 0) {
+                System.out.print(" ,");
+            }
         }
         System.out.println();
+
+        for (int i = numbers.length - 1; i >= 0; i--) {
+            System.out.print(numbers[i]);
+            if (i > 0) {
+                System.out.print(" ,");
+
+            }
+        }
+        System.out.println();
+
         for (int i = others.length - 1; i >= 0; i--) {
             System.out.print(others[i]);
-            if (i != 0) {
+            if (i > 0) {
                 System.out.print(" ,");
             }
         }
