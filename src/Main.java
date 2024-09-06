@@ -35,8 +35,8 @@ public class Main {
 
         for (int i = weights.length - 1; i >= 0; i--) {
             System.out.print(weights[i]);
-            if (i < 0) {
-                System.out.print(" ,");
+            if (i > 0) {
+                System.out.print(", ");
             }
         }
         System.out.println();
@@ -44,7 +44,7 @@ public class Main {
         for (int i = numbers.length - 1; i >= 0; i--) {
             System.out.print(numbers[i]);
             if (i > 0) {
-                System.out.print(" ,");
+                System.out.print(", ");
 
             }
         }
@@ -53,7 +53,7 @@ public class Main {
         for (int i = others.length - 1; i >= 0; i--) {
             System.out.print(others[i]);
             if (i > 0) {
-                System.out.print(" ,");
+                System.out.print(", ");
             }
         }
         System.out.println();
