@@ -64,7 +64,7 @@ public class Main {
                 weights[i] = weights[i] + 1;
             }
             System.out.println(Arrays.toString(weights));
-            break;
+
 
         }
     }
